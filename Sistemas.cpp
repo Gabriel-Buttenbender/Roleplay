@@ -1,1 +1,1 @@
-Arquivo reservado para anotações de sistemas futuros!
+Arquivo reservado para anotacoes de sistemas futuros!
