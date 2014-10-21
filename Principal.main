@@ -1,0 +1,8 @@
+#include a_samp
+#include Autenticacao
+
+main(){}
+
+public OnPlayerConnect(playerid){
+	return 1;
+}
