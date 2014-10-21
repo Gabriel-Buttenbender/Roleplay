@@ -1,0 +1,1 @@
+Arquivo reservado para anotações de sistemas futuros!
