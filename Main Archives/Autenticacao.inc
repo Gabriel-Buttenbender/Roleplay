@@ -18,7 +18,7 @@ public VerificarConta(playerid){
 	
 	GetPlayerName(playerid, Nome, sizeof(Nome));
 	
-	format(_Var, sizeof(_Var), "%s", Nome);
+	format(_Var, sizeof(_Var), ".../Banco de Dados/Cadastros/%s.ini", Nome);
 	
 	if(DOF2_FileExists(_Var)) ShowPlayerDialog(playerid, BoxLogar, DIALOG_STYLE_PASSWORD, "Logar no *****", "ALTERAR TEXTO BOX LOGAR", "Logar", "Cancelar");
 	else ShowPlayerDialog(playerid, BoxRegistrar, DIALOG_STYLE_PASSWORD, "Logar no *****", "ALTERAR TEXTO BOX REGISTRAR", "Registrar", "Cancelar");
@@ -33,7 +33,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 
 	GetPlayerName(playerid, Nome, sizeof(Nome));
 
-	format(_Var, sizeof(_Var), "%s", Nome);
+	format(_Var, sizeof(_Var), ".../Banco de Dados/Cadastros/%s.ini", Nome);
 	
 	if(dialogid == BoxLogar){
 	    if(!response) Kick(playerid);
@@ -76,16 +76,3 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[]){
 	}
 	return 1;
 }
-
-
-
-
-
-/*	    DOF2_CreateFile(_Var);
-
-		DOF2_SetInt(_Var, "Level", 0);
-		DOF2_SetInt(_Var, "Dinheiro", 100);
-		DOF2_SetInt(_Var, "Experiencia", 0);
-
-		DOF2_SaveFile();
-	*/
