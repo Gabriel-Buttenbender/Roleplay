@@ -2,4 +2,5 @@ Arquivo reservado para anotacoes de sistemas futuros e feitos!
 
 Registro / Login: 
   * Concluido: Salvamento de: Level, Dinheiro, Exp, Senha;
-  * Falta: Adicionar Cores nas Box's e mensagens;
+  * Falta: Finalizar parte do Email da cxonta.
+  * Parte testada e funcional.
